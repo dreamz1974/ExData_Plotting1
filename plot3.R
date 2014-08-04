@@ -21,7 +21,7 @@ png("plot3.png", width=480, height=480)
 with(Subset_data, { 
         
   plot(Sub_metering_1~Datetime, type="l",
-       ylab="Global Active Power (kilowatts)", 
+       ylab="Energy sub metering", 
        xlab="")   
       lines(Sub_metering_2~Datetime,col='Red')
       lines(Sub_metering_3~Datetime,col='Blue')
